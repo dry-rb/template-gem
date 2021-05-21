@@ -1,7 +1,7 @@
-# This is a config that other rom-rb repositories use
+# This is a config that other dry-rb repositories use
 
 sources:
-  - repo: rom-rb/template-gem
+  - repo: dry-rb/template-gem
     sync:
       - "config.yml:.action_hero.yml"
       - ".devtools/templates/*.sync:${{dir}}/${{name}}"
