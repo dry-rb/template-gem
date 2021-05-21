@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+# this file is managed by rom-rb/devtools project
+
+gem "rake", ">= 12.3.3"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+group :test do
+  gem "simplecov", require: false, platforms: :ruby
+  gem "simplecov-cobertura", require: false, platforms: :ruby
+  gem "rexml", require: false
+
+  gem "warning" if RUBY_VERSION >= "2.4.0"
+end
+
+group :tools do
+  # this is the same version that we use on codacy
+  gem "rubocop", "1.15.0"
+end
