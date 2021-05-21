@@ -32,5 +32,5 @@
 <% if previous_release %>
 <% ver_range = "v#{previous_release.version}...v#{latest_release.version}" %>
 
-[Compare <%=ver_range%>](https://github.com/rom-rb/<%= project.name %>/compare/<%=ver_range%>)
+[Compare <%=ver_range%>](https://github.com/dry-rb/<%= project.name %>/compare/<%=ver_range%>)
 <% end %>

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# this file is managed by rom-rb/devtools
+# this file is managed by dry-rb/devtools
 
 if ENV["COVERAGE"] == "true"
   require "simplecov"

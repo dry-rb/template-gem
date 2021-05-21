@@ -1,4 +1,4 @@
-# This file is synced from rom-rb/template-gem repo
+# This file is synced from dry-rb/template-gem repo
 
 name: sync
 
@@ -21,11 +21,11 @@ jobs:
       - name: Checkout devtools
         uses: actions/checkout@v2
         with:
-          repository: rom-rb/devtools
+          repository: dry-rb/devtools
           path: tmp/devtools
       - name: Setup git user
         run: |
-          git config --local user.email "rom-bot@rom-rb.org"
+          git config --local user.email "rom-bot@dry-rb.org"
           git config --local user.name "rom-bot"
       - name: Set up Ruby
         uses: actions/setup-ruby@v1

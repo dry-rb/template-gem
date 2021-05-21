@@ -6,11 +6,11 @@ If you found a bug, report an issue and describe what's the expected behavior ve
 
 ## Reporting feature requests
 
-Report a feature request **only after discussing it first on [discourse.rom-rb.org](https://discourse.rom-rb.org)** where it was accepted. Please provide a concise description of the feature.
+Report a feature request **only after discussing it first on [discourse.dry-rb.org](https://discourse.dry-rb.org)** where it was accepted. Please provide a concise description of the feature.
 
 ## Reporting questions, support requests, ideas, concerns etc.
 
-**PLEASE DON'T** - use [discourse.rom-rb.org](http://discourse.rom-rb.org) instead.
+**PLEASE DON'T** - use [discourse.dry-rb.org](http://discourse.dry-rb.org) instead.
 
 # Pull Request Guidelines
 
@@ -26,4 +26,4 @@ Other requirements:
 
 # Asking for help
 
-If these guidelines aren't helpful, and you're stuck, please post a message on [discourse.rom-rb.org](https://discourse.rom-rb.org).
+If these guidelines aren't helpful, and you're stuck, please post a message on [discourse.dry-rb.org](https://discourse.dry-rb.org).
