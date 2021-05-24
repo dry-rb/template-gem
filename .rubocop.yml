@@ -1,4 +1,4 @@
-# this file is managed by dry-rb/devtools project
+# This is a config synced from dry-rb/template-gem repo
 
 AllCops:
   TargetRubyVersion: 2.7
