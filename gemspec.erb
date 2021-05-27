@@ -1,7 +1,7 @@
 <% path = name.gsub('-', '/')
    files = ['CHANGELOG.md', 'LICENSE', 'README.md', "#{name}.gemspec", 'lib/**/*', *gemspec.fetch('files', [])]
 %># frozen_string_literal: true
-# this file is managed by dry-rb/devtools project
+# this file is synced from dry-rb/template-gem project
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
