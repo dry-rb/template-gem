@@ -1,7 +1,7 @@
 # This is a config synced from dry-rb/template-gem repo
 
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 2.5
   Exclude:
     - spec/support/coverage.rb
     - spec/support/warnings.rb
