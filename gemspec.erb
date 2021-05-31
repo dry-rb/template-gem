@@ -45,7 +45,8 @@ Gem::Specification.new do |spec|
   <%
   if gemspec.key?('runtime_dependencies')
     gemspec['runtime_dependencies'].sort_by { |name, *| name }.each do |dep| %>
-  spec.add_runtime_dependency <%= Array(dep).map(&:inspect).join(', ') %><%
+  spec.add_runtime_dependency <%= Array(dep).map(&:inspect).join(', ') %>
+  <%
     end
   end
   if gemspec.key?('development_dependencies')
@@ -54,7 +55,8 @@ Gem::Specification.new do |spec|
 <%
     end
     gemspec['development_dependencies'].sort_by { |name, *| name }.each do |dep| %>
-  spec.add_development_dependency <%= Array(dep).map(&:inspect).join(', ') %><%
+  spec.add_development_dependency <%= Array(dep).map(&:inspect).join(', ') %>
+  <%
     end
   end %>
 end
