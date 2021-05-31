@@ -1,7 +1,7 @@
-# This is a config synced from dry-rb/template-gem repo
+# This is a config synced from <%= org %>/template-gem repo
 
 sources:
-  - repo: dry-rb/template-gem
+  - repo: <%= org %>/template-gem
     sync:
       <% if custom_ci -%>
       - "!.github/workflows/ci.yml.erb"
