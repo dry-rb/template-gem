@@ -1,6 +1,6 @@
 # This file is synced from dry-rb/template-gem repo
 <% default_rubies = ["3.0", "2.7", "2.6", "jruby"] %>
-name: ci
+name: CI
 
 on:
   push:
@@ -22,6 +22,7 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    name: Tests
     strategy:
       fail-fast: false
       matrix:
