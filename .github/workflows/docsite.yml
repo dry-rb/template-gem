@@ -24,7 +24,7 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: "2.6.x"
+          ruby-version: "2.7.x"
       - name: Set up git user
         run: |
           git config --local user.email "dry-bot@dry-rb.org"
@@ -60,4 +60,3 @@ jobs:
           GITHUB_LOGIN: dry-bot
           GITHUB_TOKEN: ${{secrets.GH_PAT}}
         run: ossy github workflow dry-rb/dry-rb.org ci
-
