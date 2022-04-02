@@ -16,7 +16,7 @@ on:
       - "project.yml"
   pull_request:
     branches:
-      - master
+      - main
   create:
 
 jobs:
@@ -49,7 +49,7 @@ jobs:
       - name: Run all tests
         run: bundle exec rake
       - name: Run codacy-coverage-reporter
-        uses: codacy/codacy-coverage-reporter-action@master
+        uses: codacy/codacy-coverage-reporter-action@main
         if: env.COVERAGE == 'true' && env.COVERAGE_TOKEN != ''
         with:
           project-token: ${{secrets.CODACY_PROJECT_TOKEN}}
