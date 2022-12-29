@@ -6,7 +6,7 @@ sources:
       <% if custom_ci -%>
       - "!.github/workflows/ci.yml.erb"
       <% end %>
-      - ".action_hero.yml.erb"
+      - ".repobot.yml.erb"
       - ".devtools/templates/*.sync:${{dir}}/${{name}}"
       - ".github/**/*.*"
       - "gemspec.erb:<%= name %>.gemspec"
