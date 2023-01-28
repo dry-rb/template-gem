@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.version       = <%= inflector.camelize(path) %>::VERSION.dup
 
-  spec.summary       = <%= gemspec['summary'].inspect %><%
+  spec.summary       = <%= gemspec["summary"].inspect %><%
   if gemspec.key?('description')
     if gemspec['description'].lines.size > 1
       description = gemspec['description'].strip.split("\n").map { |l| "    #{l}\n" }.join
