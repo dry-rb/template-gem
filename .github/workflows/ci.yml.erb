@@ -31,7 +31,7 @@ jobs:
         - "<%= ruby %>"
         <% end %>
         include:
-          - ruby: "3.3"
+          - ruby: "3.4"
             coverage: "true"
     env:
       COVERAGE: ${{matrix.coverage}}
